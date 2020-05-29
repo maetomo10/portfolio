@@ -8,8 +8,7 @@ body {
   "Hiragino Sans",
   Meiryo,
   sans-serif;
+  background-color: white;
 }
-header p{
-  text-align: center;
-
+header {
 }
