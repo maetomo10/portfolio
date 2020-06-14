@@ -1,0 +1,65 @@
+/**/
+/**/
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  word-wrap: break-word;
+}
+
+body {
+  font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+  background-color: black;
+}
+
+.container {
+  max-width: 1270px;
+  width: 95%;
+  margin: 0 auto;
+}
+
+header {
+  text-align: right;
+  background-color: rgba(255, 255, 255, 0.5);
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+
+header .header-link a {
+  display: inline-block;
+  margin-left: 10px;
+  line-height: 50px;
+  padding: 0 10px;
+  color: black;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+header .header-link a:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+#top {
+  padding: 300px 0;
+  text-align: center;
+}
+
+#top h1 {
+  font-size: 50px;
+  display: none;
+}
+
+#top h2 {
+  margin-top: 20px;
+  font-size: 30px;
+  display: none;
+}
+
+#profile {
+  background-color: #d8ffff;
+  padding: 1000px;
+}
+/*# sourceMappingURL=stylesheet.css.map */
