@@ -5,14 +5,14 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Maetomo's Portfolio</title>
-  <meta name="description" content="maetomoのポートフォリオサイトです。">
+  <meta name="description" content="Maetomoのポートフォリオサイトです。">
   <link rel="stylesheet" href="css/Doctor.css">
   <link rel="stylesheet" href="css/stylesheet.css">
   <link rel="stylesheet" href="css/responsive.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
     integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-  </head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+</head>
 
 <body>
   <!--ヘッダー-->
@@ -21,8 +21,9 @@
       <div class="header-link">
         <a href="#top">TOP</a>
         <a href="#profile">PROFILE</a>
-        <a href="#">SKILLS</a>
-        <a href="#">CONTACT</a>
+        <a href="#skills">SKILLS</a>
+        <a href="#product">PRODUCT</a>
+        <a href="#contact">CONTACT</a>
       </div>
     </div>
   </header>
@@ -33,11 +34,62 @@
       <h2>Web Engineer</h2>
     </div>
   </div>
-  <div id="profile"></div>
-  <footer>
-  </footer>
-  <script src="script/parallax.min.js"></script>
-  <script src="script/script.js"></script>
+  <!--プロフィール-->
+  <div id="profile">
+    <div class="container">
+      <p class="headline">Profile</p>
+      <div class="grid-container">
+        <div class="face">
+          <img src="img/IMAG0251.jpg">
+        </div>
+        <div class="profile-message">
+          <p>Tomonori Maeda</p>
+          <br>
+          <p>1996年生まれ,福岡県出身,東京都在住</p>
+          <p>大学では情報工学を専攻</p>
+          <p>現在は都内のSESにて勤務</p>
+          <p>趣味は海外旅行で、今まで訪れた国は10か国以上</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!--スキル-->
+  <div id="skills">
+    <div class="container">
+      <p class="headline">Skills</p>
+      <div class="flex-container">
+        <div class="skill">
+          <div class="skill-picture">
+            <img src="img/362480-html5-1.png">
+          </div>
+          <div class="skill-word">
+            <p>制作後の変更が行いやすいように、見やすいコードを書くことを心掛けています。</p>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="skill-picture">
+            <img src="img/320117-css3.png">
+          </div>
+          <div class="skill-word">
+            <p>Flexbox,GridLayoutを使用し、レスポンシブ対応のHP作成を行います。
+              <br>また、SCSSを使用することにより、効率的にHP作成を行っております。</p>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="skill-picture">
+            <img src="img/302787-jquery.png">
+          </div>
+          <div class="skill-word">
+            <p>オープンソースのプラグインを駆使し、動きのあるデザインを素早く作成しております。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+    </footer>
+    <script src="script/parallax.min.js"></script>
+    <script src="script/script.js"></script>
 </body>
 
 </html>

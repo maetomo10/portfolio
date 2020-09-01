@@ -7,9 +7,17 @@
   word-wrap: break-word;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 body {
   font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
   background-color: black;
+}
+
+a, p {
+  font-size: 2.2rem;
 }
 
 .container {
@@ -29,12 +37,13 @@ header {
 
 header .header-link a {
   display: inline-block;
+  font-size: 1.6rem;
   margin-left: 10px;
   line-height: 50px;
   padding: 0 10px;
   color: black;
-  -webkit-transition: 1s;
-  transition: 1s;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
 }
 
 header .header-link a:hover {
@@ -48,18 +57,84 @@ header .header-link a:hover {
 }
 
 #top h1 {
-  font-size: 50px;
+  font-size: 4rem;
   display: none;
 }
 
 #top h2 {
   margin-top: 20px;
-  font-size: 30px;
+  font-size: 2.2rem;
   display: none;
 }
 
 #profile {
-  background-color: #d8ffff;
-  padding: 1000px;
+  background-color: white;
+  padding-bottom: 100px;
+}
+
+.headline {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: bold;
+  padding: 100px 0;
+}
+
+.grid-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 0.5fr 1fr;
+      grid-template-columns: 0.5fr 1fr;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+  gap: 0 20px;
+      grid-template-areas: "face profile-message";
+}
+
+.face {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: face;
+}
+
+.face img {
+  width: 100%;
+}
+
+.profile-message {
+  width: 100%;
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: profile-message;
+  line-height: 5rem;
+  letter-spacing: 0.1rem;
+  font-size: 100%;
+}
+
+#skills {
+  color: white;
+}
+
+.flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.skill {
+  text-align: center;
+  width: 30%;
+}
+
+.skill-word {
+  padding: 5rem;
+  text-align: left;
+  line-height: 3rem;
+  letter-spacing: 0.1rem;
+  font-size: 100%;
 }
 /*# sourceMappingURL=stylesheet.css.map */
