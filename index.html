@@ -9,9 +9,8 @@
   <link rel="stylesheet" href="css/Doctor.css">
   <link rel="stylesheet" href="css/stylesheet.css">
   <link rel="stylesheet" href="css/responsive.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
-    integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+  <link rel="stylesheet" href="css/modaal.css">
 </head>
 
 <body>
@@ -22,7 +21,7 @@
         <a href="#top">TOP</a>
         <a href="#profile">PROFILE</a>
         <a href="#skills">SKILLS</a>
-        <a href="#product">PRODUCT</a>
+        <a href="#products">PRODUCT</a>
         <a href="#contact">CONTACT</a>
       </div>
     </div>
@@ -49,10 +48,10 @@
           <p>大学では情報工学を専攻</p>
           <p>現在は都内のSESにて勤務</p>
           <p>趣味は海外旅行で、今まで訪れた国は10か国以上</p>
+          <p>目標はフロントエンドマスター</p>
         </div>
       </div>
     </div>
-  </div>
   </div>
   <!--スキル-->
   <div id="skills">
@@ -86,10 +85,59 @@
         </div>
       </div>
     </div>
-    <footer>
-    </footer>
-    <script src="script/parallax.min.js"></script>
-    <script src="script/script.js"></script>
+  </div>
+  <!--プロダクト-->
+  <div id="products">
+    <div class="container">
+      <p class="headline">Product</p>
+      <div class="flex-container">
+        <div class="product">
+          <div class="product-picture-1">
+            <a href="#modal" class="modal">
+              <img src="img/maetomo10.github.io_deitora-copy_.png">
+            </a>
+            <div id="modal"><img class="modal-after" src="img/maetomo10.github.io_deitora-copy_.png"></div>
+          </div>
+          <div class="product-word">
+            <p class="detail">※画像をクリックすると全体画像が出ます</p>
+            <p>デイトラ様のLPを模倣したもの</p> 
+            <p>(HTML5/CSS3)</p>
+          </div>
+        </div>
+        <div class="product">
+          <div class="product-picture-2">
+            <a href="https://maetomo10.github.io/ProgrammingSchoolHpImitation/" target="_blank">
+              <img  src="img/FireShot Capture 003 - Programmingschool - maetomo10.github.io.png">
+            </a>
+          </div>
+          <div class="product-word">
+            <p class="detail">※画像をクリックすると実際のページを開きます</p>
+            <p>架空のプログラミングスクールのLP</p>
+            <p>(HTML5/CSS3/jQuery)</p>
+          </div>
+        </div>
+        <div class="product">
+          <div class="product-picture-2">
+            <a href="https://github.com/maetomo10/portfolio/tree/master" target="_blank">
+              <img src="img/FireShot Capture 008 - Maetomo's Portfolio - 127.0.0.1.png">
+            </a>
+          </div>
+          <div class="product-word">
+            <p class="detail">※画像をクリックすると当ページのGitHubを開きます</p>
+            <p>当ページ</p>
+            <p>(HTML5/CSS3(SCSS)/jQuery)</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="script/parallax.min.js"></script>
+  <script src="script/modaal.js"></script>
+  <script src="script/script.js"></script>
 </body>
 
 </html>

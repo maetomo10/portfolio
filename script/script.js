@@ -11,7 +11,10 @@ $(function(){
  //背景パララックス
   $('#top').parallax({imageSrc: '../img/frank-mckenna-eXHeq48Z-Q4-unsplash.jpg'});
   $('#skills').parallax({imageSrc:'../img/programming-1873854_1280.png'});
-
+ //モーダルウィンドウ
+  $('.modal').modaal({});
+ //フェードイン
   $('h1,h2').fadeIn(7000);
+
 });
 
