@@ -11,6 +11,9 @@
   <link rel="stylesheet" href="css/responsive.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
   <link rel="stylesheet" href="css/modaal.css">
+  <link href="https://fonts.googleapis.com/css?family=Caveat rel=" stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Homemade+Apple rel=" stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC:700 rel=" stylesheet">
 </head>
 
 <body>
@@ -33,6 +36,10 @@
       <h2>Web Engineer</h2>
     </div>
   </div>
+  <!--トップへ戻るボタン-->
+  <div class="top-button">
+    <a href="#" class="fa fa-angle-double-up "></a>
+  </div>
   <!--プロフィール-->
   <div id="profile">
     <div class="container">
@@ -49,6 +56,13 @@
           <p>現在は都内のSESにて勤務</p>
           <p>趣味は海外旅行で、今まで訪れた国は10か国以上</p>
           <p>目標はフロントエンドマスター</p>
+          <br>
+          <a class="btn mail" href="mailto:maetomoengineer&#64;gmail.com">
+            <i class="fas fa-envelope"></i> mail
+          </a>
+          <a class="btn git" href="https://github.com/maetomo10" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-github"></i> GitHub
+          </a>
         </div>
       </div>
     </div>
@@ -100,14 +114,15 @@
           </div>
           <div class="product-word">
             <p class="detail">※画像をクリックすると全体画像が出ます</p>
-            <p>デイトラ様のLPを模倣したもの</p> 
+            <p>デイトラ様のLPを模倣したもの</p>
             <p>(HTML5/CSS3)</p>
           </div>
         </div>
         <div class="product">
           <div class="product-picture-2">
-            <a href="https://maetomo10.github.io/ProgrammingSchoolHpImitation/" target="_blank">
-              <img  src="img/FireShot Capture 003 - Programmingschool - maetomo10.github.io.png">
+            <a href="https://maetomo10.github.io/ProgrammingSchoolHpImitation/" target="_blank"
+              rel="noopener noreferrer">
+              <img src="img/FireShot Capture 003 - Programmingschool - maetomo10.github.io.png">
             </a>
           </div>
           <div class="product-word">
@@ -131,9 +146,38 @@
       </div>
     </div>
   </div>
-
+  <!--お問い合わせフォーム-->
+  <div id="contact">
+    <div class="container">
+      <p class="headline">Contact</p>
+      <form
+        action="https://docs.google.com/forms/u/1/d/e/1FAIpQLSfpeOVxbAxeL8cwUZPa-GLbJqckjoWB7nUZQVcuJysJpIdMMQ/formResponse"
+        　method="post" target="hidden_iframe" onsubmit="submitted=true;">
+        <div class="form-1">
+          <input type="text" name="entry.462703979" placeholder="お名前" required>
+        </div>
+        <div class="form-1">
+          <input type="text" name="entry.2077255160" placeholder="メールアドレス" required>
+        </div>
+        <div class="form-2">
+          <textarea name="entry.1555747434" placeholder="お問い合わせ内容" required></textarea>
+        </div>
+        <div class="submit-btn">
+          <input type="submit" value="送信">
+        </div>
+      </form>
+      <script type="text/javascript">var submitted = false;</script>
+      <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"
+        onload="if(submitted){window.location='thanks/thanks.html';}"></iframe>
+    </div>
+  </div>
+  <!--フッター-->
   <footer>
+    <div class="container">
+      <p>©2020/Tomonori Maeda/All Right Reserved</p>
+    </div>
   </footer>
+  <!---->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   <script src="script/parallax.min.js"></script>
   <script src="script/modaal.js"></script>
