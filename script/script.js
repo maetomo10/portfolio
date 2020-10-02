@@ -24,9 +24,9 @@ $(function(){
 
  //背景パララックス
 
-  $('#top').parallax({imageSrc:'../img/frank-mckenna-eXHeq48Z-Q4-unsplash.jpg'});
-  $('#skills').parallax({imageSrc:'../img/programming-1873854_1280.png'});
-  $('#contact').parallax({imageSrc:'../img/benjamin-voros-phIFdC6lA4E-unsplash.jpg'})
+  $('#top').parallax({imageSrc:'/img/frank-mckenna-eXHeq48Z-Q4-unsplash.jpg'});
+  $('#skills').parallax({imageSrc:'/img/programming-1873854_1280.png'});
+  $('#contact').parallax({imageSrc:'/img/benjamin-voros-phIFdC6lA4E-unsplash.jpg'})
 
   //モーダルウィンドウ
   $('.modal').modaal({});
