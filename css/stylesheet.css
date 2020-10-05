@@ -356,13 +356,11 @@ header .header-link a:hover {
   width: 100%;
 }
 
-@media (min-width: 561px) {
-  .modal:hover {
-    -webkit-transform: scale(1.2, 1.2);
-            transform: scale(1.2, 1.2);
-    -webkit-transition: 1s all;
-    transition: 1s all;
-  }
+.modal img:hover {
+  -webkit-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
+  -webkit-transition: 1s all;
+  transition: 1s all;
 }
 
 .modal-after {
@@ -380,13 +378,11 @@ header .header-link a:hover {
   width: 100%;
 }
 
-@media (min-width: 561px) {
-  .product-picture-2:hover {
-    -webkit-transform: scale(1.2, 1.2);
-            transform: scale(1.2, 1.2);
-    -webkit-transition: 1s all;
-    transition: 1s all;
-  }
+.product-picture-2 img:hover {
+  -webkit-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
+  -webkit-transition: 1s all;
+  transition: 1s all;
 }
 
 .product-word {
