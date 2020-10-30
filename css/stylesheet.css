@@ -195,7 +195,8 @@ header .header-link a:hover {
         grid-template-columns: 1fr;
     -ms-grid-rows: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
-        grid-template-areas: "face" "profile-message";
+        grid-template-areas: "face"
+ "profile-message";
   }
 }
 

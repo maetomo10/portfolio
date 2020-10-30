@@ -22,8 +22,8 @@ $(function () {
     });
   });
 
-  //背景パララックス
 
+  //背景パララックス
   $("#top").parallax({
     imageSrc: "img/frank-mckenna-eXHeq48Z-Q4-unsplash.jpg",
   });
