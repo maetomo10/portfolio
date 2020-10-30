@@ -325,7 +325,7 @@ header .header-link a:hover {
 }
 
 .product {
-  width: 30%;
+  width: 23%;
 }
 
 @media (max-width: 960px) {
@@ -357,6 +357,23 @@ header .header-link a:hover {
 }
 
 .modal img:hover {
+  -webkit-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
+  -webkit-transition: 1s all;
+  transition: 1s all;
+}
+
+#modal-2 {
+  display: none;
+}
+
+.modal-2 img {
+  -webkit-transition: 1s all;
+  transition: 1s all;
+  width: 100%;
+}
+
+.modal-2 img:hover {
   -webkit-transform: scale(1.2, 1.2);
           transform: scale(1.2, 1.2);
   -webkit-transition: 1s all;
