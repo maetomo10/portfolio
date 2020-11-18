@@ -243,10 +243,11 @@ header {
   width: 23%;
   @include tab {
     width: 48%;
+    padding-bottom: 10rem;
   }
   @include sp {
     width: 100%;
-    padding-bottom: 10rem;
+    
   }
 }
 .product-picture-1 {
