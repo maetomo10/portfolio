@@ -27,7 +27,7 @@ $(function () {
   $("#top").parallax({
     imageSrc: "img/frank-mckenna-eXHeq48Z-Q4-unsplash.jpg",
   });
-  $("#skills").parallax({ imageSrc: "img/programming-1873854_1280.png" });
+  $("#skills").parallax({ imageSrc: "img/programming-1873854_1280.jpg" });
   $("#contact").parallax({
     imageSrc: "img/benjamin-voros-phIFdC6lA4E-unsplash.jpg",
   });
