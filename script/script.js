@@ -29,7 +29,7 @@ $(function () {
   });
   $("#skills").parallax({ imageSrc: "img/programming-1873854_1280.jpg" });
   $("#contact").parallax({
-    imageSrc: "img/benjamin-voros-phIFdC6lA4E-unsplash.jpg",
+    imageSrc: "img/benjamin-voros-phIFdC6lA4E-unsplash_compressed.jpg",
   });
   //モーダルウィンドウ
   $(".modal").modaal({});
