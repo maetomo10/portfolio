@@ -45,4 +45,10 @@ $(function () {
       $(".top-button").fadeOut();
     }
   });
+  $('.slider').flickity({
+    // options
+    cellAlign: 'center',
+    wrapAround: true,
+    contain: true
+  });
 });

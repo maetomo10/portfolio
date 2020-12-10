@@ -344,13 +344,13 @@ header .header-link a:hover {
 }
 
 .product {
-  width: 23%;
-  padding-bottom: 10rem;
+  width: 30%;
+  padding: 0 1% 10rem 1%;
 }
 
 @media (max-width: 960px) {
   .product {
-    width: 48%;
+    width: 50%;
   }
 }
 
