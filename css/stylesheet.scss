@@ -239,9 +239,12 @@ header {
 #products {
   padding-bottom: 8rem;
 }
+.slider{
+  margin-bottom: 10rem;
+}
 .product {
   width: 30%;
-  padding: 0 1% 10rem 1%;
+  padding: 0 1%;
   @include tab {
     width: 50%;
 
