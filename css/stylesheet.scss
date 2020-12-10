@@ -240,10 +240,10 @@ header {
   padding-bottom: 8rem;
 }
 .product {
-  width: 23%;
-  padding-bottom: 10rem;
+  width: 30%;
+  padding: 0 1% 10rem 1%;
   @include tab {
-    width: 48%;
+    width: 50%;
 
   }
   @include sp {
