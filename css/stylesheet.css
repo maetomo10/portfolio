@@ -110,8 +110,8 @@ header .header-link a:hover {
 }
 
 .fluffy {
-  -webkit-animation: fluffy1 3s ease infinite;
-          animation: fluffy1 3s ease infinite;
+  -webkit-animation: fluffy1 3s ease;
+          animation: fluffy1 3s ease;
 }
 
 @-webkit-keyframes fluffy1 {
